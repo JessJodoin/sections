@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #eee9de;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
 }
@@ -9,13 +8,42 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 section {
   display: inline-block;
+  text-align: center;
+  background-color: #eee9de;
+  margin: 0;
+  width: 100%;
 }
 
 div {
   display: inline-block;
   color: #333;
+  max-width: 25em;
+  margin: 1.5em;
+}
+
+div img {
+  width: 100%;
+}
+
+.text {
+  text-align: left;
+  margin-top: 0;
+}
+
+.giza {
+  margin-top: 0;
+}
+
+.text div {
+  text-align: left;
+  margin: 0;
+  max-width: 25em;
 }
 
 div a {
