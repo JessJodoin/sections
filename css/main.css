@@ -1,8 +1,36 @@
 html {
   box-sizing: border-box;
+  background-color: #eee9de;
   font-family: "Lato", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  display: inline-block;
+}
+
+div {
+  display: inline-block;
+  color: #333;
+}
+
+div a {
+  display: inline-block;
+  background-color: #eee9de;
+  border: 3px solid #333;
+  border-radius: 7px;
+  padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+}
+
+div a:hover {
+  background-color: #666;
+  color: #eee9de;
+  border: 3px solid #666;
+  border-radius: 7px;
 }
