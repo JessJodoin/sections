@@ -14,7 +14,7 @@ body {
 
 section {
   display: inline-block;
-  vertical-align: middle;
+  text-align: center;
   background-color: #eee9de;
   margin: 0;
   width: 100%;
@@ -22,6 +22,7 @@ section {
 
 div {
   display: inline-block;
+  vertical-align: middle;
   color: #333;
   width: 100%;
   max-width: 25em;
@@ -29,6 +30,7 @@ div {
 }
 
 img {
+  display: inline-block;
   width: 100%;
   padding: 1em;
   margin-top: 1.5em;
@@ -36,13 +38,13 @@ img {
 
 .text {
   text-align: left;
-  padding: 0 1em 1em;
+  padding: 2em 1em 1em;
   width: 100%;
   max-width: 25em;
 }
 
 .giza {
-  padding: .5em 0 1em;
+  padding: 0 0 1em;
   margin: 0;
   font-weight: bold;
 }
